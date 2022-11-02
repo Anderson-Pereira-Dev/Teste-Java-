@@ -166,9 +166,11 @@ public class Questao7 {
 ### Questão 8 
 
 ```
-O Spring Integration é o módulo do Spring que implementa a parte de integração entre sistemas. A anotação @EnableIntegration 
-também é útil quando você tem um contexto pai sem componentes Spring Integration e dois ou mais contextos filho que usam Spring 
-Integration. Ele permite que esses componentes comuns sejam declarados apenas uma vez, no contexto pai.
+O Spring Integration é o módulo do Spring que implementa a parte de integração entre sistemas. A anotação @EnableIntegration é 
+útil quando temos um contexto "pai" sem componentes Spring Integration e dois ou mais contextos filho que usam Spring Integration. 
+Ele permite que esses componentes comuns sejam declarados apenas uma vez, no contexto pai.A anotação @MessagingGateway teremos um 
+gateway que oculta a nossa API de mensagens fornecida pelo Spring Integration. Ele permite que a lógica de negócios da nossa 
+aplicação não conheça a API Spring Integration.
 ```
 
 ### Questão 9
