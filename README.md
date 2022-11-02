@@ -95,7 +95,11 @@ ORDER BY NOTA DESC, NOME DESC, VALOR
 
 ```
 
+### Questão 5 
 
+```
+A resposta correta é "Polimorfismo" 
+```
 
 
 ### Questão 6 
