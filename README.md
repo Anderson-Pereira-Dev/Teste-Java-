@@ -28,6 +28,24 @@ public class Veiculo {
 }
 ```
 
+### Questão 4
+
+```
+select * from alunos order by id
+
+1	"Julia"	         81
+2	"Carol"	         68
+3	"Maria"	         99
+4	"Andreia"	 78
+5	"Jaqueline"	 63
+6	"Marcela"	 88
+
+```
+
+
+
+
+
 ### Questão 6 
 
 ```
