@@ -39,6 +39,12 @@ public class Veiculo {
 }
 ```
 
+### Questão 3 
+
+```
+São iguais, porque amnbas as strings contem a mesma palavra. 
+```
+
 ### Questão 4
 
 ```
