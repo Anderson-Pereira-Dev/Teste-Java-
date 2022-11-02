@@ -122,3 +122,44 @@ public class Questao6 {
     }
 }
 ```
+
+### Questão 7
+
+```
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Questao7 {
+
+    
+    public static void main(String[] args) {
+        
+        /**
+         * O ArrayList<> é uma classe que implementa a interface List<>.
+         * Serve para trabalhar com listas dinâmicas, conforme o exemplo abaixo.
+         */
+        List<String> lista = new ArrayList<>();
+        lista.add("item 1");
+        lista.add("item 4");
+        lista.add("item 3");
+        lista.add("item 2");
+        System.out.println(lista);
+        
+        /**
+         * O HashMap é uma classe que implementa a interface Map<>.
+         * É útil para trabalhar em situações de chave-valor, conforme o exemplo abaixo.
+         */
+        Map<String, Integer> mapa = new HashMap<>();
+        mapa.put("Alisson", 1);
+        mapa.put("Daniel Alves", 2);
+        mapa.put("Marquinhos", 3);
+        System.out.println(mapa);
+        
+    }
+   }
+
+```
+
+
