@@ -163,3 +163,36 @@ public class Questao7 {
 ```
 
 
+### Questão 8 
+
+```
+O Spring Integration é o módulo do Spring que implementa a parte de integração entre sistemas. A anotação @EnableIntegration 
+também é útil quando você tem um contexto pai sem componentes Spring Integration e dois ou mais contextos filho que usam Spring 
+Integration. Ele permite que esses componentes comuns sejam declarados apenas uma vez, no contexto pai.
+```
+
+### Questão 9
+
+```
+Injeção de Dependência é um padrão de projeto que vai auxiliar o programador a desacoplar seu código e melhora a questão da 
+responsabilidade de cada classe. O Spring tem algumas anotações que são bastante utilizadas para isso, por exemplo: @Service, 
+@Repository, @Controller e etc. Usando essas anotações, o Spring se encarrega de controlar as instâncias de objeto de cada uma.
+```
+
+
+### Questão 11
+
+```
+Esse código inicialmente prepara uma lista de veículos que é trazido do veiculoService.findVeiculos e armazena na variável 
+payload. Em seguida, irá retornar essa lista de veículos para ser armazenada (através do método saveAll) em algum lugar definido 
+ali no "integrationService". Esse método source() é chamado no método flowDefinition() dentro de uma função lambda e cada dado 
+irá passar pelo filtro de 1 segundo trazendo até 50 itens e por fim irá passar pelo "channel" definido no método veiculosChannel().
+
+```
+
+
+
+
+
+
+
