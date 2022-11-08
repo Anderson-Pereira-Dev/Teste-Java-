@@ -42,7 +42,7 @@ public class Veiculo {
 ### Questão 3 
 
 ```
-São iguais, porque amnbas as strings contem a mesma palavra. 
+São iguais, porque ambas as strings contém a mesma palavra. 
 ```
 
 ### Questão 4
